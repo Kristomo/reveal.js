@@ -1,0 +1,201 @@
+/**
+ * Beige theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/encodesans/encodesans.css);
+@import url(../../lib/font/uni-sans/uni-sans.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+$scheme: "purple"; /**
+				    * If I wasn't considering sharing this with other people,
+				    * I'd advocate setting the scheme here. For now, I'm just
+				    * altering based on body class.
+				    * 
+				    **/
+				   
+
+
+$uw_gold:#E8D3A2;
+$uw_gold_metal:#85754d;
+$uw_bronze: #b7a57a;
+$uw_purple:#4b2e83;
+$uw_gray_light:#d9d9d9;
+$uw_gray_dark:#444444; 
+
+
+$headingFont:"Encode Sans"; 
+$heading2Font:"Encode Sans"; 
+$subHeadingFont:"Uni Sans Regular"; 
+$mainFont: "Open Sans"; 
+$heading1Size: 65px;
+$heading2Size: 40px;
+$heading3Size: 32px;
+$mainFontSize: 32px;
+
+
+$headingFontWeight: 700;
+
+$liSecond: 20pt;
+$liThird: 18pt;
+$liFourth: 16pt;
+$liFifth: 14pt;
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor:white;
+$headingColor:white;
+$headingTextShadow: none;
+$backgroundColor: $uw_purple;
+$linkColor: $uw_bronze;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(79, 64, 28, 0.99);
+$heading1TextShadow: none;
+
+// Things would be so much easier this way.. :(
+@if $scheme == "white" {
+	$backgroundColor:white;
+} @else if $scheme == "gold" {
+	$backgroundColor:$uw_gold;
+}
+
+.reveal .no-bg-border,
+.reveal .no-bg-border img{
+	background:none;
+	border:none;
+	box-shadow:none;
+}
+
+img[alt="DrupalCon 2016"] {
+	width:70%;
+}
+
+h1,h2{
+	display:block;
+	position:relative;
+	max-width:80%;
+	text-align:left;
+	&:after{
+		position: absolute;
+		left:3px;
+		content:" ";
+		display:block;
+		background:$uw_gold;
+		width:3.75em;
+		border-top: 0.25em solid transparent;
+		border-right: 0.075em solid $uw_purple;
+
+	}
+}
+
+#logo{
+	position:absolute;
+
+	bottom:0;
+	width:4em;
+	height:2.68em;
+	background: url("../../../assets/img/uw_logo.png") left center no-repeat;
+	background-size:cover;
+}
+#wordmark {
+	position:absolute;
+	left:0;
+	bottom:3%;
+	width:25%;
+	height:25px;
+	background: url("../../../assets/img/cas_wordmark.png") -5px center no-repeat;
+	background-size:cover;
+}
+
+//Gold Variant
+body.gold{
+	background-color:$uw_gold;
+	.reveal{
+		color:$uw_purple;
+	}
+	h1, h2, h3, h4, h5, h6{
+		color:$uw_purple;
+	}
+	h1,h2 {
+		&:after{
+			border-right: 0.075em solid $uw_gold;
+			background:$uw_purple;
+		}
+	}
+}
+
+//White Variant
+body.white{
+	background-color:white;
+	.reveal{
+		color:$uw_purple;
+	}
+	h1, h2, h3, h4, h5, h6{
+		color:$uw_purple;
+	}
+	h1,h2 {
+		&:after{
+			border-right: 0.075em solid white;
+		}
+	}
+}
+	
+.replace.fragment {
+	text-align:left;
+	&.visible {
+		display:none;
+
+		&.current-fragment {
+			display:inline-block;
+
+		}
+	}
+}
+
+.reveal ul {
+	width:100%;
+}
+
+#topic{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+	font-family: $headingFont;
+	font-size: 1.125em;
+	padding: .2em .4em;
+	background: rgba(0, 0, 0, 0.14);
+}
+
+.reveal .embiggen{
+	font-size:1.3em;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding: 0 0.5em;
+}
+
+.reveal .purple-font{
+	color: $uw_purple;
+}
+
+.bg-purple{
+  background:rgba($uw_purple, .5)
+}
+
+.bg-white{
+  background:rgba(255,255,255,.5);
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

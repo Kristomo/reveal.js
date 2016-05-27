@@ -1,0 +1,432 @@
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('encodesanscondensed-medium-webfont.eot');
+    src: url('encodesanscondensed-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscondensed-medium-webfont.woff') format('woff'),
+         url('encodesanscondensed-medium-webfont.ttf') format('truetype'),
+         url('encodesanscondensed-medium-webfont.svg#encode_sans_condensedmedium') format('svg');
+    font-weight:500;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('encodesanscondensed-regular-webfont.eot');
+    src: url('encodesanscondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscondensed-regular-webfont.woff') format('woff'),
+         url('encodesanscondensed-regular-webfont.ttf') format('truetype'),
+         url('encodesanscondensed-regular-webfont.svg#encode_sans_condensedregular') format('svg');
+    font-weight: 400;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('encodesanscondensed-light-webfont.eot');
+    src: url('encodesanscondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscondensed-light-webfont.woff') format('woff'),
+         url('encodesanscondensed-light-webfont.ttf') format('truetype'),
+         url('encodesanscondensed-light-webfont.svg#encode_sans_condensedlight') format('svg');
+    font-weight:300;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('encodesanscondensed-bold-webfont.eot');
+    src: url('encodesanscondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscondensed-bold-webfont.woff') format('woff'),
+         url('encodesanscondensed-bold-webfont.ttf') format('truetype'),
+         url('encodesanscondensed-bold-webfont.svg#encode_sans_condensedbold') format('svg');
+    font-weight: 700;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Condensed';
+    src: url('encodesanscompressed-semibold-webfont.eot');
+    src: url('encodesanscompressed-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscompressed-semibold-webfont.woff') format('woff'),
+         url('encodesanscompressed-semibold-webfont.ttf') format('truetype'),
+         url('encodesanscompressed-semibold-webfont.svg#encode_sans_compressedSBd') format('svg');
+    font-weight: 600;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('encodesanscompressed-regular-webfont.eot');
+    src: url('encodesanscompressed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscompressed-regular-webfont.woff') format('woff'),
+         url('encodesanscompressed-regular-webfont.ttf') format('truetype'),
+         url('encodesanscompressed-regular-webfont.svg#encode_sans_compressedregular') format('svg');
+    font-weight: 400;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('encodesanscompressed-light-webfont.eot');
+    src: url('encodesanscompressed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscompressed-light-webfont.woff') format('woff'),
+         url('encodesanscompressed-light-webfont.ttf') format('truetype'),
+         url('encodesanscompressed-light-webfont.svg#encode_sans_compressedlight') format('svg');
+    font-weight: 300;
+ 
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('encodesanscompressed-medium-webfont.eot');
+    src: url('encodesanscompressed-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscompressed-medium-webfont.woff') format('woff'),
+         url('encodesanscompressed-medium-webfont.ttf') format('truetype'),
+         url('encodesanscompressed-medium-webfont.svg#encode_sans_compressedmedium') format('svg');
+    font-weight: 500;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('encodesanscompressed-bold-webfont.eot');
+    src: url('encodesanscompressed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscompressed-bold-webfont.woff') format('woff'),
+         url('encodesanscompressed-bold-webfont.ttf') format('truetype'),
+         url('encodesanscompressed-bold-webfont.svg#encode_sans_compressedbold') format('svg');
+    font-weight: 700;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Compressed';
+    src: url('encodesanscondensed-semibold-webfont.eot');
+    src: url('encodesanscondensed-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanscondensed-semibold-webfont.woff') format('woff'),
+         url('encodesanscondensed-semibold-webfont.ttf') format('truetype'),
+         url('encodesanscondensed-semibold-webfont.svg#encode_sans_condensedsemibold') format('svg');
+    font-weight: 600;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans';
+    src: url('encodesans-bold-webfont.eot');
+    src: url('encodesans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesans-bold-webfont.woff') format('woff'),
+         url('encodesans-bold-webfont.ttf') format('truetype'),
+         url('encodesans-bold-webfont.svg#encode_sansbold') format('svg');
+    font-weight: 700;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans';
+    src: url('encodesans-light-webfont.eot');
+    src: url('encodesans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesans-light-webfont.woff') format('woff'),
+         url('encodesans-light-webfont.ttf') format('truetype'),
+         url('encodesans-light-webfont.svg#encode_sanslight') format('svg');
+    font-weight: 300;
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans';
+    src: url('encodesans-medium-webfont.eot');
+    src: url('encodesans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesans-medium-webfont.woff') format('woff'),
+         url('encodesans-medium-webfont.ttf') format('truetype'),
+         url('encodesans-medium-webfont.svg#encode_sansmedium') format('svg');
+    font-weight: 500;
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Narrow';
+    src: url('encodesansnarrow-semibold-webfont.eot');
+    src: url('encodesansnarrow-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnarrow-semibold-webfont.woff') format('woff'),
+         url('encodesansnarrow-semibold-webfont.ttf') format('truetype'),
+         url('encodesansnarrow-semibold-webfont.svg#encode_sans_narrowsemibold') format('svg');
+    font-weight: 600;
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Narrow';
+    src: url('encodesansnarrow-regular-webfont.eot');
+    src: url('encodesansnarrow-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnarrow-regular-webfont.woff') format('woff'),
+         url('encodesansnarrow-regular-webfont.ttf') format('truetype'),
+         url('encodesansnarrow-regular-webfont.svg#encode_sans_narrowregular') format('svg');
+    font-weight: 400;
+
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Narrow';
+    src: url('encodesansnarrow-medium-webfont.eot');
+    src: url('encodesansnarrow-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnarrow-medium-webfont.woff') format('woff'),
+         url('encodesansnarrow-medium-webfont.ttf') format('truetype'),
+         url('encodesansnarrow-medium-webfont.svg#encode_sans_narrowmedium') format('svg');
+    font-weight: 500;
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Narrow';
+    src: url('encodesansnarrow-light-webfont.eot');
+    src: url('encodesansnarrow-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnarrow-light-webfont.woff') format('woff'),
+         url('encodesansnarrow-light-webfont.ttf') format('truetype'),
+         url('encodesansnarrow-light-webfont.svg#encode_sans_narrowlight') format('svg');
+    font-weight: 300;
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Wide';
+    src: url('encodesanswide-light-webfont.eot');
+    src: url('encodesanswide-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanswide-light-webfont.woff') format('woff'),
+         url('encodesanswide-light-webfont.ttf') format('truetype'),
+         url('encodesanswide-light-webfont.svg#encode_sans_widelight') format('svg');
+    font-weight: 300;
+
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Narrow';
+    src: url('encodesansnarrow-bold-webfont.eot');
+    src: url('encodesansnarrow-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnarrow-bold-webfont.woff') format('woff'),
+         url('encodesansnarrow-bold-webfont.ttf') format('truetype'),
+         url('encodesansnarrow-bold-webfont.svg#encode_sans_narrowbold') format('svg');
+    font-weight: 700;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Enncode Sans';
+    src: url('encodesans-semibold-webfont.eot');
+    src: url('encodesans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesans-semibold-webfont.woff') format('woff'),
+         url('encodesans-semibold-webfont.ttf') format('truetype'),
+         url('encodesans-semibold-webfont.svg#encode_sanssemibold') format('svg');
+    font-weight: 600;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Wide';
+    src: url('encodesanswide-bold-webfont.eot');
+    src: url('encodesanswide-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanswide-bold-webfont.woff') format('woff'),
+         url('encodesanswide-bold-webfont.ttf') format('truetype'),
+         url('encodesanswide-bold-webfont.svg#encode_sans_widebold') format('svg');
+    font-weight: 700;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans';
+    src: url('encodesans-regular-webfont.eot');
+    src: url('encodesans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesans-regular-webfont.woff') format('woff'),
+         url('encodesans-regular-webfont.ttf') format('truetype'),
+         url('encodesans-regular-webfont.svg#encode_sansregular') format('svg');
+    font-weight: 400;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Wide';
+    src: url('encodesanswide-semibold-webfont.eot');
+    src: url('encodesanswide-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanswide-semibold-webfont.woff') format('woff'),
+         url('encodesanswide-semibold-webfont.ttf') format('truetype'),
+         url('encodesanswide-semibold-webfont.svg#encode_sans_widesemibold') format('svg');
+    font-weight: 600;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Wide';
+    src: url('encodesanswide-regular-webfont.eot');
+    src: url('encodesanswide-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanswide-regular-webfont.woff') format('woff'),
+         url('encodesanswide-regular-webfont.ttf') format('truetype'),
+         url('encodesanswide-regular-webfont.svg#encode_sans_wideregular') format('svg');
+    font-weight: 400;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Encode Sans Wide';
+    src: url('encodesanswide-medium-webfont.eot');
+    src: url('encodesanswide-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesanswide-medium-webfont.woff') format('woff'),
+         url('encodesanswide-medium-webfont.ttf') format('truetype'),
+         url('encodesanswide-medium-webfont.svg#encode_sans_widemedium') format('svg');
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('encodesansnormal-300-light-webfont.eot');
+    src: url('encodesansnormal-300-light-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnormal-300-light-webfont.woff') format('woff'),
+         url('encodesansnormal-300-light-webfont.ttf') format('truetype'),
+         url('encodesansnormal-300-light-webfont.svg#encode_sanslight') format('svg');
+    font-weight: 300;
+    
+
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('encodesansnormal-400-regular-webfont.eot');
+    src: url('encodesansnormal-400-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnormal-400-regular-webfont.woff') format('woff'),
+         url('encodesansnormal-400-regular-webfont.ttf') format('truetype'),
+         url('encodesansnormal-400-regular-webfont.svg#encode_sanslight') format('svg');
+    font-weight: 400;
+    
+
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('encodesansnormal-500-medium-webfont.eot');
+    src: url('encodesansnormal-500-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnormal-500-medium-webfont.woff') format('woff'),
+         url('encodesansnormal-500-medium-webfont.ttf') format('truetype'),
+         url('encodesansnormal-500-medium-webfont.svg#encode_sanslight') format('svg');
+    font-weight: 500;
+    
+
+}
+
+@font-face {
+    font-family: 'Encode Sans Normal';
+    src: url('encodesansnormal-700-bold-webfont.eot');
+    src: url('encodesansnormal-700-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('encodesansnormal-700-bold-webfont.woff') format('woff'),
+         url('encodesansnormal-700-bold-webfont.ttf') format('truetype'),
+         url('encodesansnormal-700-bold-webfont.svg#encode_sanslight') format('svg');
+    font-weight: 700;
+    
+
+}
